@@ -1,0 +1,46 @@
+/**
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ */
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap source files
+@import "bootstrap/bootstrap";
+
+// If you want you can import bootstrap scss files directly from node_modules or bower_components.
+// To do this please remove @import "bootstrap/bootstrap"; and uncomment proper line.
+
+// Import Bootstrap source files from node_modules
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+// Import Bootstrap source files from bower_components
+// @import "bower_components/bootstrap/scss/bootstrap";
+
+// Import vendors styles
+@import "vendors/vendors";
+
+// Override core variables
+@import "core-variables";
+
+// Import core styles
+@import "core/core";
+
+// Custom styles
+@import "custom";
+.app.flex-row.align-items-center {
+    background: url(https://lh3.ggpht.com/mLX5kSPckbRMsZukreN2KqnGoEqrVxMVXfNyDcQ6gJ6yJLx2xzTwcDY-b_c5KpL5B2UYS7beLBKbdO3K92Fk=s1600) center bottom / cover no-repeat scroll;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.fa.fa-vimeo{
+ font-size:40px;
+ color:rgb(204, 51, 0);
+}
+.app-header.navbar.navbar-brand {
+    background-size: 165px auto !important;
+}

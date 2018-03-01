@@ -1,0 +1,6 @@
+{
+  "name": "Insights",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Insights.js"
+}

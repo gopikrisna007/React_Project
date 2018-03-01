@@ -1,0 +1,63 @@
+// Here you can add other styles
+.sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar .nav .nav-item .dropdown-toggle {
+    display: block;
+    padding: 3.75rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    font-size: 18px;
+    
+}
+.sidebar .nav .nav-item .nav-link i, .sidebar .nav .nav-item .navbar .dropdown-toggle i, .navbar .sidebar .nav .nav-item .dropdown-toggle i {
+    width: 30px;
+    margin: 0 0.5rem 0 0;
+    font-size: 18px;
+    color: #536c79;
+    text-align: center;
+}
+
+.griddle-table-heading-cell {
+    text-align: left;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+    font-feature-settings: tnum;
+    -moz-font-feature-settings: tnum;
+    -ms-font-feature-settings: tnum;
+    -webkit-font-feature-settings: tnum;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: calc(0.75rem - 1px);
+  }
+  .griddle-row {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    box-sizing: inherit;
+  }
+  .griddle-cell {
+    text-align: left;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+    font-feature-settings: tnum;
+    -moz-font-feature-settings: tnum;
+    -ms-font-feature-settings: tnum;
+    -webkit-font-feature-settings: tnum;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  .griddle-pagination {
+    padding: 30px 0px;
+    float: right;
+  }
+  .app-header.navbar .navbar-brand{
+    background-size: contain;
+    width: 185px;
+  }
+  .dropup, .dropdown {
+    position: relative;
+    right: 40px;
+}
+body {
+  font-size: 0.8rem!important;
+}
